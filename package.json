@@ -1,0 +1,24 @@
+{
+  "name": "stream-tester",
+  "version": "0.0.0",
+  "description": "Streams to make test other Streams",
+  "main": "index.js",
+  "dependencies": {
+    "through": "~0.0.3",
+    "from": "~0.0.2",
+    "assertions": "~2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stream",
+    "test",
+    "spec",
+    "exercise",
+    "pipe"
+  ],
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
+  "license": "BSD"
+}
