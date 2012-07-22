@@ -62,10 +62,8 @@ exports.createPauseStream =
           self.resume()
         })
       }
-      console.log("emit ('data', " + data + ')')
       this.emit('data', data) 
     }, function () {
-      console.log("emit ('end')")
       this.emit('end')
     })
   }
