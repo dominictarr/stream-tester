@@ -54,11 +54,9 @@ exports.createPauseStream =
 
     return through(function (data) {    
       if(!this.paused && pauseIf()) {
-        console.log('PAUSE STREAM PAUSING')
         this.pause()
         var self = this
         delayer(function () {
-          console.log('PAUSE STREAM RESUMING')
           self.resume()
         })
       }
