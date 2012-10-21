@@ -1,6 +1,6 @@
 {
   "name": "stream-tester",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Streams to make test other Streams",
   "main": "index.js",
   "dependencies": {
