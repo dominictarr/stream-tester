@@ -1,6 +1,6 @@
 #Streams to assist testing Streams
 
-writing streams can be difficult, one of the most difficult aspects can be testing them througherly.
+writing streams can be difficult, one of the most difficult aspects can be testing them thoroughly.
 
 that is where stream-tester comes in. 
 stream-tester can be used to generate data to exercise your streams.
